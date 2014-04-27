@@ -28,7 +28,7 @@ public class Manufactoria {
         out:
         for (int findy = 0; findy < program.length; findy++) {
             for (int findx = 0; findx < program[findy].length; findx++) {
-                if (program[findy][findx] == '@') {
+                if (program[findy][findx] == '@' || program[findy][findx] == '0' || program[findy][findx] == '&') {
                     x = findx + 1;
                     y = findy;
                     break out;
@@ -59,6 +59,8 @@ public class Manufactoria {
             switch (p) {
                 case ' ':
                 case '@':
+                case '&':
+                case '0':
                     System.exit(1);
                 case '$':
                     int count = 0;
