@@ -265,7 +265,7 @@ public class Manufactoria {
                 case 'l':
                     matchl += 'b';
                     matchr += 'r';
-                    dir = dirs[branch(1, (char) queue.peek(), (char) matchl, (char) matchr)];
+                    dir = dirs[branch(3, (char) queue.peek(), (char) matchl, (char) matchr)];
                     peek = (char) queue.peek();
                     if (peek == matchl || peek == matchr) {
                         queue.pop();
