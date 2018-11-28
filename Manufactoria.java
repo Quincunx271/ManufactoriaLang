@@ -8,12 +8,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * This program may be copied or edited or extended upon for any reason. All
- * that I ask is that you provide proper attribution to my work.
- *
- * @author Quincunx
- */
 public class Manufactoria {
 
     private static char inputType;
