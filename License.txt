@@ -1,3 +1,0 @@
-If you do want to use part of this code, just mention my name (or username) and link to my codegolf profile 
-(http://codegolf.stackexchange.com/users/9498) or another stackexchange profile or another place that makes it clear
-that it is me.
